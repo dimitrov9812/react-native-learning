@@ -8,7 +8,7 @@ import CardList from '../firstProject/src/components/CardList';
 // Create a component.
 const App = () => {
     return(
-        <View>
+        <View style = {{flex:1}}>
             <Header headerText={"Yu-Gi-Oh"}/>
             <CardList />
         </View>
