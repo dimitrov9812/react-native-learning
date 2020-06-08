@@ -8,11 +8,13 @@ import Header from '../firstProject/src/components/Header';
 const App = () => {
     return(
         <>
-            <Header/>
+            <Header headerText={"Yu-Gi-Oh"}/>
             <Text>Outside Header</Text>
         </>
     )
 }
+
+
 
 // Render it to the device.
 AppRegistry.registerComponent(appName, () => App);
